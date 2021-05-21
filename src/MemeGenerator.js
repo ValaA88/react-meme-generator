@@ -20,9 +20,9 @@ const MemeGenerator = ({ images }) => {
       <img src={image} />
 
       <form>
-        <label for="fname">First name:</label>
+        <label for="fname">Type top:</label>
         <input type="text" id="fname" name="fname" />
-        <label for="lname">Last name:</label>
+        <label for="lname">Type bottom:</label>
         <input type="text" id="lname" name="lname" />
         <input type="submit" value="Submit" />
       </form>
